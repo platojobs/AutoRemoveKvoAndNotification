@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABC6CCAC221CEAD2005D49B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC6CCAB221CEAD2005D49B0 /* AppDelegate.m */; };
+		ABC6CCAF221CEAD2005D49B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC6CCAE221CEAD2005D49B0 /* ViewController.m */; };
+		ABC6CCB2221CEAD2005D49B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABC6CCB0221CEAD2005D49B0 /* Main.storyboard */; };
+		ABC6CCB4221CEAD4005D49B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABC6CCB3221CEAD4005D49B0 /* Assets.xcassets */; };
+		ABC6CCB7221CEAD4005D49B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABC6CCB5221CEAD4005D49B0 /* LaunchScreen.storyboard */; };
+		ABC6CCBA221CEAD4005D49B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC6CCB9221CEAD4005D49B0 /* main.m */; };
+		ABC6CCC4221CEAD4005D49B0 /* AutoRemoveKvoAndNotificationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC6CCC3221CEAD4005D49B0 /* AutoRemoveKvoAndNotificationTests.m */; };
+		ABC6CCCF221CEAD4005D49B0 /* AutoRemoveKvoAndNotificationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC6CCCE221CEAD4005D49B0 /* AutoRemoveKvoAndNotificationUITests.m */; };
+		ABC6CCDE221CEB23005D49B0 /* NSObject+AutoRemoveKVONotification.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC6CCDD221CEB23005D49B0 /* NSObject+AutoRemoveKVONotification.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABC6CCC0221CEAD4005D49B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABC6CC9F221CEAD2005D49B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABC6CCA6221CEAD2005D49B0;
+			remoteInfo = AutoRemoveKvoAndNotification;
+		};
+		ABC6CCCB221CEAD4005D49B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABC6CC9F221CEAD2005D49B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABC6CCA6221CEAD2005D49B0;
+			remoteInfo = AutoRemoveKvoAndNotification;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABC6CCA7221CEAD2005D49B0 /* AutoRemoveKvoAndNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoRemoveKvoAndNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC6CCAA221CEAD2005D49B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABC6CCAB221CEAD2005D49B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABC6CCAD221CEAD2005D49B0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ABC6CCAE221CEAD2005D49B0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ABC6CCB1221CEAD2005D49B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABC6CCB3221CEAD4005D49B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABC6CCB6221CEAD4005D49B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABC6CCB8221CEAD4005D49B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABC6CCB9221CEAD4005D49B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABC6CCBF221CEAD4005D49B0 /* AutoRemoveKvoAndNotificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoRemoveKvoAndNotificationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC6CCC3221CEAD4005D49B0 /* AutoRemoveKvoAndNotificationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoRemoveKvoAndNotificationTests.m; sourceTree = "<group>"; };
+		ABC6CCC5221CEAD4005D49B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABC6CCCA221CEAD4005D49B0 /* AutoRemoveKvoAndNotificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoRemoveKvoAndNotificationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC6CCCE221CEAD4005D49B0 /* AutoRemoveKvoAndNotificationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoRemoveKvoAndNotificationUITests.m; sourceTree = "<group>"; };
+		ABC6CCD0221CEAD4005D49B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABC6CCDC221CEB23005D49B0 /* NSObject+AutoRemoveKVONotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+AutoRemoveKVONotification.h"; sourceTree = "<group>"; };
+		ABC6CCDD221CEB23005D49B0 /* NSObject+AutoRemoveKVONotification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AutoRemoveKVONotification.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABC6CCA4221CEAD2005D49B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC6CCBC221CEAD4005D49B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC6CCC7221CEAD4005D49B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABC6CC9E221CEAD2005D49B0 = {
+			isa = PBXGroup;
+			children = (
+				ABC6CCA9221CEAD2005D49B0 /* AutoRemoveKvoAndNotification */,
+				ABC6CCC2221CEAD4005D49B0 /* AutoRemoveKvoAndNotificationTests */,
+				ABC6CCCD221CEAD4005D49B0 /* AutoRemoveKvoAndNotificationUITests */,
+				ABC6CCA8221CEAD2005D49B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABC6CCA8221CEAD2005D49B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABC6CCA7221CEAD2005D49B0 /* AutoRemoveKvoAndNotification.app */,
+				ABC6CCBF221CEAD4005D49B0 /* AutoRemoveKvoAndNotificationTests.xctest */,
+				ABC6CCCA221CEAD4005D49B0 /* AutoRemoveKvoAndNotificationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABC6CCA9221CEAD2005D49B0 /* AutoRemoveKvoAndNotification */ = {
+			isa = PBXGroup;
+			children = (
+				ABC6CCAA221CEAD2005D49B0 /* AppDelegate.h */,
+				ABC6CCAB221CEAD2005D49B0 /* AppDelegate.m */,
+				ABC6CCAD221CEAD2005D49B0 /* ViewController.h */,
+				ABC6CCAE221CEAD2005D49B0 /* ViewController.m */,
+				ABC6CCDC221CEB23005D49B0 /* NSObject+AutoRemoveKVONotification.h */,
+				ABC6CCDD221CEB23005D49B0 /* NSObject+AutoRemoveKVONotification.m */,
+				ABC6CCB0221CEAD2005D49B0 /* Main.storyboard */,
+				ABC6CCB3221CEAD4005D49B0 /* Assets.xcassets */,
+				ABC6CCB5221CEAD4005D49B0 /* LaunchScreen.storyboard */,
+				ABC6CCB8221CEAD4005D49B0 /* Info.plist */,
+				ABC6CCB9221CEAD4005D49B0 /* main.m */,
+			);
+			path = AutoRemoveKvoAndNotification;
+			sourceTree = "<group>";
+		};
+		ABC6CCC2221CEAD4005D49B0 /* AutoRemoveKvoAndNotificationTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABC6CCC3221CEAD4005D49B0 /* AutoRemoveKvoAndNotificationTests.m */,
+				ABC6CCC5221CEAD4005D49B0 /* Info.plist */,
+			);
+			path = AutoRemoveKvoAndNotificationTests;
+			sourceTree = "<group>";
+		};
+		ABC6CCCD221CEAD4005D49B0 /* AutoRemoveKvoAndNotificationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABC6CCCE221CEAD4005D49B0 /* AutoRemoveKvoAndNotificationUITests.m */,
+				ABC6CCD0221CEAD4005D49B0 /* Info.plist */,
+			);
+			path = AutoRemoveKvoAndNotificationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABC6CCA6221CEAD2005D49B0 /* AutoRemoveKvoAndNotification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABC6CCD3221CEAD4005D49B0 /* Build configuration list for PBXNativeTarget "AutoRemoveKvoAndNotification" */;
+			buildPhases = (
+				ABC6CCA3221CEAD2005D49B0 /* Sources */,
+				ABC6CCA4221CEAD2005D49B0 /* Frameworks */,
+				ABC6CCA5221CEAD2005D49B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoRemoveKvoAndNotification;
+			productName = AutoRemoveKvoAndNotification;
+			productReference = ABC6CCA7221CEAD2005D49B0 /* AutoRemoveKvoAndNotification.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABC6CCBE221CEAD4005D49B0 /* AutoRemoveKvoAndNotificationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABC6CCD6221CEAD4005D49B0 /* Build configuration list for PBXNativeTarget "AutoRemoveKvoAndNotificationTests" */;
+			buildPhases = (
+				ABC6CCBB221CEAD4005D49B0 /* Sources */,
+				ABC6CCBC221CEAD4005D49B0 /* Frameworks */,
+				ABC6CCBD221CEAD4005D49B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABC6CCC1221CEAD4005D49B0 /* PBXTargetDependency */,
+			);
+			name = AutoRemoveKvoAndNotificationTests;
+			productName = AutoRemoveKvoAndNotificationTests;
+			productReference = ABC6CCBF221CEAD4005D49B0 /* AutoRemoveKvoAndNotificationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABC6CCC9221CEAD4005D49B0 /* AutoRemoveKvoAndNotificationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABC6CCD9221CEAD4005D49B0 /* Build configuration list for PBXNativeTarget "AutoRemoveKvoAndNotificationUITests" */;
+			buildPhases = (
+				ABC6CCC6221CEAD4005D49B0 /* Sources */,
+				ABC6CCC7221CEAD4005D49B0 /* Frameworks */,
+				ABC6CCC8221CEAD4005D49B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABC6CCCC221CEAD4005D49B0 /* PBXTargetDependency */,
+			);
+			name = AutoRemoveKvoAndNotificationUITests;
+			productName = AutoRemoveKvoAndNotificationUITests;
+			productReference = ABC6CCCA221CEAD4005D49B0 /* AutoRemoveKvoAndNotificationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABC6CC9F221CEAD2005D49B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = David;
+				TargetAttributes = {
+					ABC6CCA6221CEAD2005D49B0 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					ABC6CCBE221CEAD4005D49B0 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = ABC6CCA6221CEAD2005D49B0;
+					};
+					ABC6CCC9221CEAD4005D49B0 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = ABC6CCA6221CEAD2005D49B0;
+					};
+				};
+			};
+			buildConfigurationList = ABC6CCA2221CEAD2005D49B0 /* Build configuration list for PBXProject "AutoRemoveKvoAndNotification" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABC6CC9E221CEAD2005D49B0;
+			productRefGroup = ABC6CCA8221CEAD2005D49B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABC6CCA6221CEAD2005D49B0 /* AutoRemoveKvoAndNotification */,
+				ABC6CCBE221CEAD4005D49B0 /* AutoRemoveKvoAndNotificationTests */,
+				ABC6CCC9221CEAD4005D49B0 /* AutoRemoveKvoAndNotificationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABC6CCA5221CEAD2005D49B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC6CCB7221CEAD4005D49B0 /* LaunchScreen.storyboard in Resources */,
+				ABC6CCB4221CEAD4005D49B0 /* Assets.xcassets in Resources */,
+				ABC6CCB2221CEAD2005D49B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC6CCBD221CEAD4005D49B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC6CCC8221CEAD4005D49B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABC6CCA3221CEAD2005D49B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC6CCDE221CEB23005D49B0 /* NSObject+AutoRemoveKVONotification.m in Sources */,
+				ABC6CCAF221CEAD2005D49B0 /* ViewController.m in Sources */,
+				ABC6CCBA221CEAD4005D49B0 /* main.m in Sources */,
+				ABC6CCAC221CEAD2005D49B0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC6CCBB221CEAD4005D49B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC6CCC4221CEAD4005D49B0 /* AutoRemoveKvoAndNotificationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC6CCC6221CEAD4005D49B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC6CCCF221CEAD4005D49B0 /* AutoRemoveKvoAndNotificationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABC6CCC1221CEAD4005D49B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABC6CCA6221CEAD2005D49B0 /* AutoRemoveKvoAndNotification */;
+			targetProxy = ABC6CCC0221CEAD4005D49B0 /* PBXContainerItemProxy */;
+		};
+		ABC6CCCC221CEAD4005D49B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABC6CCA6221CEAD2005D49B0 /* AutoRemoveKvoAndNotification */;
+			targetProxy = ABC6CCCB221CEAD4005D49B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABC6CCB0221CEAD2005D49B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABC6CCB1221CEAD2005D49B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABC6CCB5221CEAD4005D49B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABC6CCB6221CEAD4005D49B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABC6CCD1221CEAD4005D49B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ABC6CCD2221CEAD4005D49B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABC6CCD4221CEAD4005D49B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MR566AMPNB;
+				INFOPLIST_FILE = AutoRemoveKvoAndNotification/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PlatoJobs.AutoRemoveKvoAndNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABC6CCD5221CEAD4005D49B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MR566AMPNB;
+				INFOPLIST_FILE = AutoRemoveKvoAndNotification/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PlatoJobs.AutoRemoveKvoAndNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ABC6CCD7221CEAD4005D49B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MR566AMPNB;
+				INFOPLIST_FILE = AutoRemoveKvoAndNotificationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PlatoJobs.AutoRemoveKvoAndNotificationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoRemoveKvoAndNotification.app/AutoRemoveKvoAndNotification";
+			};
+			name = Debug;
+		};
+		ABC6CCD8221CEAD4005D49B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MR566AMPNB;
+				INFOPLIST_FILE = AutoRemoveKvoAndNotificationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PlatoJobs.AutoRemoveKvoAndNotificationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoRemoveKvoAndNotification.app/AutoRemoveKvoAndNotification";
+			};
+			name = Release;
+		};
+		ABC6CCDA221CEAD4005D49B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MR566AMPNB;
+				INFOPLIST_FILE = AutoRemoveKvoAndNotificationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PlatoJobs.AutoRemoveKvoAndNotificationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AutoRemoveKvoAndNotification;
+			};
+			name = Debug;
+		};
+		ABC6CCDB221CEAD4005D49B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MR566AMPNB;
+				INFOPLIST_FILE = AutoRemoveKvoAndNotificationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PlatoJobs.AutoRemoveKvoAndNotificationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AutoRemoveKvoAndNotification;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABC6CCA2221CEAD2005D49B0 /* Build configuration list for PBXProject "AutoRemoveKvoAndNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC6CCD1221CEAD4005D49B0 /* Debug */,
+				ABC6CCD2221CEAD4005D49B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABC6CCD3221CEAD4005D49B0 /* Build configuration list for PBXNativeTarget "AutoRemoveKvoAndNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC6CCD4221CEAD4005D49B0 /* Debug */,
+				ABC6CCD5221CEAD4005D49B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABC6CCD6221CEAD4005D49B0 /* Build configuration list for PBXNativeTarget "AutoRemoveKvoAndNotificationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC6CCD7221CEAD4005D49B0 /* Debug */,
+				ABC6CCD8221CEAD4005D49B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABC6CCD9221CEAD4005D49B0 /* Build configuration list for PBXNativeTarget "AutoRemoveKvoAndNotificationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC6CCDA221CEAD4005D49B0 /* Debug */,
+				ABC6CCDB221CEAD4005D49B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABC6CC9F221CEAD2005D49B0 /* Project object */;
+}
