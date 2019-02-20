@@ -23,7 +23,7 @@ method_exchangeImplementations(originalDealloc, newDealloc);
 
 - (void)autoRemoveObserverDealloc
 {
-if (objc_getAssociatedObject(self, &KTKvoObserversKey) || objc_getAssociatedObject(self, &KTNotificationObserversKey)) {
+if (objc_getAssociatedObject(self, &PJKvoObserversKey) || objc_getAssociatedObject(self, &PJNotificationObserversKey)) {
 [self removeAllObserverBlocks];
 [self removeAllNotificationBlocks];
 }
